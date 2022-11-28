@@ -1,0 +1,74 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.tital{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+/* img layout */
+
+.logo-img{
+    width: 120px;
+    height: 50px;
+    /* margin: 5px 38px 0px 5px; */
+}
+
+.avatar-img{
+    border-radius: 50%;
+    width:45px;
+    height: 45px;
+}
+
+.main-img{
+    width: 380px;
+    height: 400px;
+}
+
+.icon-layout{
+    width: 25px;
+    margin: 3px;
+    margin-left: 6px;
+}
+
+/* section area */
+.top{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.user-info{
+    margin-left: 15px;
+}
+.name{
+    margin-bottom: 0; 
+}
+.location{
+    margin-top: 2px; 
+}
+.bold{
+    font-weight: bold;
+}
+.content{
+    margin-left: 5px;
+}
+
+/*text Area*/
+
+.text-content{
+    margin-left:10px; 
+    margin-bottom: 20px
+}
+.textInline{
+    display: inline;
+    padding-left: 2px;
+}
+
+
